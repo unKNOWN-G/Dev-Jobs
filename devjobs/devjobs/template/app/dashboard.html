@@ -1,0 +1,29 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="{% static 'CSS/dash.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+    <title>Dashboard</title>
+</head>
+<body>
+    <img class="dash" src="{% static 'images/dashboard.gif' %}" alt="">
+    <div class="container">
+      <a href="{% url 'job' %}"><img src="{% static 'images/plus.png' %}" alt="plus">
+      <h1 class="h1-starter">Click Here to</h1>
+      <h1> Add a Job</h1>
+    </div>
+</body>
+</html>

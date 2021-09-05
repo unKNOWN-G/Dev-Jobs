@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  background-color: #003864;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.boo{
+  position: relative;
+}
+.rocket{
+  width: 65%;
+  height: auto;
+  float: left;
+}
+.rocket-m{
+  width: 65%;
+  height: auto;
+  float: left;
+  transition-delay: 2s;
+}
+.rocket-new{
+  position: absolute;
+  background-color: white;
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+.login-direction {
+    font-size: 50px;
+    display: block;
+    margin: 20px auto;
+    color: #003864;
+}
+.login-direction-w{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  color: white;
+  position: absolute;
+  top: 305px;
+  right: 160px;
+
+}
+span{
+  margin: 5px auto;
+}
+
+.container{
+height: 500px;
+width: 30%;
+background-color: white;
+
+position: fixed;
+top: 110px;
+right: 50px;
+
+border-radius: 10%;
+
+text-align: center;
+margin: 2px auto;
+}
+
+.internal_container{
+  margin: 5px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  color: gray;
+  background-color: gray;
+  width: 70%;
+}
+
+.container2{
+  text-align: center;
+  padding: 3px;
+}
+
+p{
+  margin: 25px;
+}
+
+.box{
+  height: 35px;
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  padding: 2px;
+  font-size: 1.1em;
+  border-radius: 7%;
+  background-color: #F7F6F2;
+  color: #C8C6C6;
+}
+
+.box:enabled{
+        color: black;
+      font-weight: 900;
+
+}
+
+.sbt{
+  height: 35px;
+  width: 30%;
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  color: green;
+    font-weight: 900;
+}
+.sbt:hover{
+  background-color: green;
+  color: white;
+  transition: 1s;
+}
+a{
+  text-decoration: none;
+}
+button{
+  height: 100px;
+  width: 200px;
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  color: green;
+  font-weight: 900;
+  padding: 10px;
+  font-weight: 900;
+  border-radius: 10%;
+}
+
+button:hover{
+  background-color: #5D8233;
+      color: white;
+      transition: 1.5s;
+  }

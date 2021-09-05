@@ -1,0 +1,47 @@
+<!doctype html>
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'CSS/login.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>login</title>
+</head>
+<body>
+  <img class="rocket" src="{% static 'Images/dashboard.png' %}" alt=""/>
+
+  <div class="container">
+    <div class="internal_container">
+      <h1>Login</h1>
+      <hr size='4'>
+      <div class="container2">
+        <form method="post" action="{% url 'login' %}">
+          {% csrf_token %}
+
+          <input class="box" type="text" name="username" placeholder="Username">
+            <br>
+          <input class="box" type="password" name="password" placeholder="Password">
+            <br>
+          <input class= "sbt" type="submit" name="" value="Login">
+
+        </form>
+      </div>
+    </div>
+    <p>Don't have an account?<span>&nbsp;</span><a href="{% url 'register' %}">Register</a></p>
+
+  </div>
+  <div class="slant">
+    <h1 style="font-family:Sacramento; font-size:100px" >Lego jobs</h1>
+  </div>
+
+</body>
+</html>

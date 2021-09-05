@@ -1,0 +1,130 @@
+body{
+  text-align: center;
+}
+
+.container{
+height: 500px;
+width: 30%;
+background-color: white;
+
+position: fixed;
+top: 130px;
+left: 100px;
+
+border-radius: 10%;
+
+text-align: center;
+margin: 2px auto;
+}
+
+.internal_container{
+  margin: 5px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  color: gray;
+  background-color: gray;
+  width: 70%;
+}
+
+.container2{
+  text-align: center;
+  padding: 3px;
+}
+
+p{
+  margin: 25px;
+}
+
+.box{
+  height: 35px;
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  padding: 2px;
+  font-size: 1.1em;
+  border-radius: 7%;
+  background-color: #F7F6F2;
+  color: #C8C6C6;
+  font-weight: 500;
+}
+
+.box:enabled{
+        color: black;
+      font-weight: 900;
+
+}
+
+.sbt{
+  height: 45px;
+  width: 30%;
+  font-size: 1.3em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  color: green;
+    font-weight: 900;
+    padding: 3px;
+    border-radius: 10%;
+}
+.sbt:hover{
+  background-color: green;
+  color: white;
+  transition: 1s;
+}
+a{
+  text-decoration: none;
+}
+
+.jobregister{
+  background-color: #CDF3A2;
+  padding: 10px;
+  width: 15%;
+  margin: 80px 0 0 200px;
+  border-radius: 10%;
+}
+.ablejobs{
+  height: 300px;
+  width: 40%;
+  position: absolute;
+  top: 250px;
+  right: 50px;
+  color: white;
+  font-size: 3em;
+font-family: 'Handlee', cursive;
+}
+
+.scatext{
+    font-family: Sacramento;
+}
+
+.tq{
+  width: 50%;
+  height: 700px;
+  margin: auto;
+  position: relative;
+}
+
+.tick{
+  width: 30%;
+  position: absolute;
+  left: 20px;
+  top: 270px;
+  float: left;
+}
+.greet{
+  color: white;
+    font-family: Sacramento;
+    font-size: 100px;
+  position: absolute;
+  top: 250px;
+  right: 30px
+}

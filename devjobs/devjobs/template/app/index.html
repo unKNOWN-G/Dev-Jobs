@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="{% static 'CSS/home_styles.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+<body>
+  <div class="navigation">
+    <div class="box">
+        {% if user.is_authenticated %}
+         <span class="loginbar"><a href={% url 'dashboard' %}>Dashoard</a></span>
+         <span>|</span>
+         <span class="loginbar"><a href={% url 'logout' %}>Logout</a></span>
+        {% else %}
+         <span class="loginbar"><a href={% url 'login' %}>Login</a></span>
+         <span>|</span>
+         <span class="loginbar"><a href={% url 'register' %}>Register</a></span>
+        {% endif %}
+    </div>
+  </div>
+    <div class="home-page">
+        <div class="intro">
+            <h1>Dev Jobs</h1>
+            <h3>-Hiring Made Easier</h3>
+        </div>
+        <img class= "mountain" src="{% static 'Images/mountain.png' %}">
+        <img class= "bottom-cloud" src="{% static 'Images/cloud.png' %}">
+        <img class= "top-cloud" src="{% static 'Images/cloud.png' %}">
+    </div>
+</body>

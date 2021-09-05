@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  background-color: #282F35;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.dash{
+  width: 65%;
+  float: left;
+}
+.container{
+  margin: 150px auto;
+  position: fixed;
+  overflow: hidden;
+  right: 200px
+
+}
+h1{
+  color: white;
+  margin: 0 auto;
+  font-size: 3em;
+  font-family: 'Handlee', cursive;
+}
+.h1-starter{
+  margin-top: 100px
+}
+
+a{
+    text-decoration: none;
+}
